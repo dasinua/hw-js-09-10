@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js-09-10</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <!-- Slide Menu -->
+	<nav class="da-menu">
+		<ul>
+			<li><a href="#">Nav 1</a></li>
+			<li><a href="#">Nav 2</a></li>
+			<li class="dropdown">
+			<a href="#">Nav 3</a>
+				<ul class="sub-menu">
+					<li><a href="#">Nav 3.1</a></li>
+					<li><a href="#">Nav 3.2</a></li>
+					<li><a href="#">Nav 3.3</a></li>
+					<li><a href="#">Nav 3.4</a></li>
+					<li><a href="#">Nav 3.5</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Nav 4</a></li>
+			<li><a href="#">Nav 5</a></li>
+		</ul>
+    </nav>
+
+    <!-- Carousel  -->
+	<div class="wrap-jcarousel">
+	<div class="jcarousel">
+	    <ul>
+	        <li><img src="img/111.jpg" alt="img/111"></li>
+	        <li><img src="img/222.jpg" alt="img/222"></li>
+	        <li><img src="img/333.jpg" alt="img/333"></li>
+	        <li><img src="img/444.jpg" alt="img/444"></li>
+	        <li><img src="img/555.jpg" alt="img/555"></li>
+
+	    </ul>
+    </div>
+    <!--  CONTROLS  -->
+	  <a class="jcarousel-prev" href="#">‹</a>
+	  <a class="jcarousel-next" href="#">›</a>
+
+	<!--  PAGINATION  -->
+  	  <p class="jcarousel-pagination"></p>
+	</div><!--  end wrap_jcarousel  -->
+
+	<!-- Select -->
+	<div class="da-wrapper">
+		<select class="da-select">
+			<option value="Киев">Киев</option>
+			<option value="Харьков">Харьков</option>
+			<option value="Львов">Львов</option>
+			<option value="Одесса">Одесса</option>
+			<option value="Полтава">Полтава</option>
+		</select>
+	</div>
+
+	<!-- Checkbox -->
+	<div class="da-wrapper da-wrapper--checkbox">
+		<form action="#">
+	<div><label for="ch1">label 1</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+	<div><label for="ch2">label 2</label><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+	<div><label for="ch3">label 3</label><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+	</form>
+    </div>
+
+    <!-- Checkbox css-->
+    <div class="da-wrapper da-wrapper--checkboxcss">
+		<form action="#">
+	<div><input type="checkbox"  id="chec1"  /><label for="chec1">label 1</label> </div>
+	<div><input type="checkbox"  checked="checked" id="chec2" /><label for="chec2">label 2</label></div>
+	<div><input type="checkbox"  id="chec3" checked="checked" disabled="disabled" /><label for="chec3">label 3</label></div>
+	</form>
+    </div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script  src="js/jquery.jcarousel.js"></script>
+	<script src="js/jquery.formstyler.js"></script>
+	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
+	<script  src="js/main.js"></script>
+
+</body>
+</html>
